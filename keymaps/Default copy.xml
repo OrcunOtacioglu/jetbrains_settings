@@ -1,48 +1,87 @@
-<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
   <action id="ChangesView.Diff" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
-  <action id="Console.TableResult.Reload" />
-  <action id="DatabaseView.CopyAction" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
   <action id="EditorDuplicate" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="EditorNextWord" />
   <action id="EditorPreviousWord" />
   <action id="EditorSelectLine">
-    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
+  <action id="EditorTextEnd" />
+  <action id="EditorTextStart" />
   <action id="FileChooser.GotoDesktop" />
-  <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext" />
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="meta p" />
-  </action>
   <action id="GotoLine" />
-  <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="meta r" />
-  </action>
+  <action id="IntroduceVariable" />
+  <action id="List-selectLastRow" />
+  <action id="NavBar-selectEnd" />
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
-  <action id="ParameterInfo" />
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
-  <action id="Refresh" />
-  <action id="Replace" />
-  <action id="Rerun" />
+  <action id="RiderUnitTestDebugContextTwAction" />
+  <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="SendEOF" />
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
+  <action id="Table-selectLastRow" />
   <action id="Vcs.Log.FocusTextFilter" />
-  <action id="Vcs.Log.Refresh" />
-  <action id="Vcs.QuickListPopupAction" />
-  <action id="XDebugger.CopyWatch" />
-  <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
 </keymap>
