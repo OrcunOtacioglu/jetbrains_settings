@@ -19,10 +19,15 @@
   </action>
   <action id="GotoLine" />
   <action id="GotoRow" />
+  <action id="GotoSymbol" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="meta alt o" />
   </action>
   <action id="ParameterInfo" />
   <action id="PreviousTab">
