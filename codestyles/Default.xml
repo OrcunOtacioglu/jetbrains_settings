@@ -1,1 +1,5 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <PHPCodeStyleSettings>
+    <option name="IMPORT_SORTING" value="BY_LENGTH" />
+  </PHPCodeStyleSettings>
+</code_scheme>
