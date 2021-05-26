@@ -22,7 +22,6 @@
     <entry key="search.everywhere.settings" value="true" />
     <entry key="ide.win.frame.decoration" value="true" />
     <entry key="show.diff.preview.as.editor.tab" value="true" />
-    <entry key="vcs.non.modal.commit.toggle.ui" value="false" />
     <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="ide.tree.ui.experimental" value="false" />
   </component>
