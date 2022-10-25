@@ -19,9 +19,11 @@
       <w>pgres</w>
       <w>semibold</w>
       <w>sublists</w>
+      <w>toggler</w>
       <w>upvoted</w>
       <w>wildouts</w>
       <w>wldts</w>
+      <w>zindex</w>
     </words>
   </component>
 </application>
